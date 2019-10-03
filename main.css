@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    padding:0;
+}
+
+
+#wrap {
+    background:darkred;
+    height: 1200px;
+    width:1520px;  
+}
+
+#main {
+    background:darkred;
+    height: 1000px;
+    width: 960px;
+    margin: auto;  
+}
+
+#first {
+    height: 100px;
+    background: darkred;
+}
+
+#first img {
+    height:60px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#second {
+    height:200px;
+    width: 100%;
+
+}
+#navbar {
+    height: 50px;
+    width:100%;
+    background: lightslategray ;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+   
+  }
+
+  #about {
+      height: 300px;
+      width: 100%;
+      background: #68c28c;
+  }
+
+  #about img {
+      margin-top:100px;
+      margin-left: 100px;
+  
+  }
+
+  #about h1 {
+    width: 30%;
+    height: 30%;
+    left:30%;
+    position: relative;
+    bottom: 150px;
+    color:white;
+  }
+
+  #about p {
+      width: 70%;
+      position: relative;
+      height: 30%;
+      left: 30%;
+      bottom: 150px;
+      color: white;
+  }
+
+  #third {
+      width: 100%;
+      height: 600px;
+      margin-top: 170px;
+  }
+
+  #third #left {
+      height: 100%;
+      width: 30%;
+      background: slategrey;
+      float:left;
+      
+  }
+
+  #third #right {
+      height: 100%;
+      width:70%;
+      background: tan;
+      float: right;
+  }
+#nav {
+    width: 200px;   
+}
+
+  #nav ul li {
+
+    color:white;
+    margin-left: 20px;
+    text-decoration: none;
+
+  }
+
+#nav ul  hr {
+
+   width: 150px;
+   display: block;
+   background: white;
+
+}
+
+#navbar ul li hr  {
+    height: 30px;
+    border-right: white 1px solid;
+    position: relative;
+  bottom:50px;
+  width: 0;
+  left: 45px;
+
+}
+
+#right h3 {
+  
+   margin-left: 30px;
+   margin-top: 30px;
+   color: slategrey;
+}
+
+#right p {
+   margin: 50px;
+   
+}
